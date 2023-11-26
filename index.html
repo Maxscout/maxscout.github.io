@@ -4,11 +4,17 @@
 	<link rel="stylesheet" href="style.css">
 </head>
 <body>
-	<label class="switch">
-  		<input type="checkbox">
- 		<span class="slider round"></span>
+<div class="form-group">
+	<label class="toggle-switch">
+		<input class="toggle-switch-check" type="checkbox" />
+		<span class="toggle-switch-label">Required Text on Right</span>
+		<span aria-hidden="true" class="toggle-switch-bar">
+			<span class="toggle-switch-handle" data-label-off="" data-label-on="ON">
+			</span>
+		</span>
+		<span class="toggle-switch-text toggle-switch-text-right">Required *</span>
 	</label>
-
-</label>
+</div>
+	
 </body>
 </html> 
